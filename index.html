@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <title>Mini App</title>
+
+    <style>
+      body{
+        background:#fff;
+        margin:15px;
+      }
+      .select{
+        margin-top:50px;
+      }
+      .conversion{
+        margin:25px 0px;
+      }
+      .btn{
+        padding:15px;
+        width:100%;
+        display:block;
+        font-size:20px;
+        font-weight:bold;
+      }
+      .select-text{
+        padding:10px;
+      }
+      h2{
+        font-size:30px;
+        color:#2f80ed;
+        background-color:#efefef;
+        padding:10px;
+        border-radius:3px;
+        box-shadow:-2px -1px 1px #CCC;
+        border-right:5px solid #555;
+      }
+      .select:after {
+          border-top: 6px solid rgba(0, 0, 255, 0.5);
+      }
+      .select select{
+        border-bottom:1px solid #2f80ed;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>MyFirstApp!</h2>
+    <div class="select-currency select">
+      <select class="select-text">
+        <option disabled selected>Choose Currency</option>
+      </select>
+    </div>
+    <button class="btn">Convert to Naira</button>
+    <div class="conversion mdc-elevation--z3"></div>
+    <div class="messages"></div>
+   
+  </body>
+</html>
+
